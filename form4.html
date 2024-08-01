@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            padding: 20px;
+            max-width: 500px;
+            font-family: sans-serif;
+            font-style: initial;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex;justify-content: center;">
+    <form style="border: none;"> 
+        <fieldset>
+            <figcaption style="font-style:inherit ;"><big><b>Farewell Party Survey Form</b></big></figcaption><br>
+            <label for="Name : ">Name : </label>
+            <input type ="text" placeholder="Enter your name"><br><br>
+            <label for="email">E-mail : </label>
+            <input type="email" placeholder="Enter your e-mail"><br><br>
+            <label for="Age">Age : </label>
+            <input type="number" name="" id=""><br><br>
+
+            Which option is best to describe you?
+            <select name="" id="">
+                <optgroup label="Student">
+                    <option value="Student">Student</option>
+                    <option value="Student's relative">Student's relative</option>
+                    <option value="Staf">Staf</option>
+                    <option value="Staf relative">Staf relative</option></optgroup></select><br><br>
+
+                Will you Attend the Party?
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <lable for="Yes">Yes</lable>
+                <input type="radio" name="Party" id="">
+                <label for="No">No</label>
+                <input type="radio" name="Party" id=""><br><br>
+
+                <figcaption>What did you like about the program?</figcaption>
+                <input type="checkbox" name="" id="">
+                <lable for="Training">Training</lable><br>
+                <input type="checkbox" name="" id="">
+                <label for="The Learning Sessions from Industry Experts">The Learning Sessions from Industry Experts</label><br> 
+                <input type="checkbox" name="" id="">
+                <lable for="Community Meetups">Community Meetups</lable><br>
+                <input type="checkbox" name="" id="">
+                <lable for="Brown Bag Sessions">Brown Bag Sessions</lable><br>
+                <input type="checkbox" name="" id="">
+                <lable for="Switching to Hybrid Mode">Switching to Hybrid Mode</lable><br>
+                <input type="checkbox" name="" id="">
+                <lable for="Fodd, Office etc..">Fodd, Office etc..</lable><br><br>
+                Any comments or suggestions
+                <textarea cols="25px" rows="2px" style="resize: none;"></textarea><br><br>
+                <input type="submit" value="Reset">
+                <input type="submit" value="Submit">
+        </fieldset>
+       
+    </form>
+    </div>
+</body>
+</html>
