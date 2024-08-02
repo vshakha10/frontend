@@ -4,15 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: blue;
+        }
+        form{
+            background-color: white;
+            position: relative;
+            max-width: 900px;
+            width: 100%;
+            border-radius: 6px;
+            padding: 30px;
+            margin: 0 15px;
+            box-shadow:0 5px 10px black;
+        }
+       
+    </style>
 </head>
 <body>
     <form> 
         <fieldset>
             <figcaption style="font-style:inherit ;"><big><b>Registration</b></big></figcaption><br>
-            <label for="Full name : ">Full Name  </label><br>
+            <span class="title" color="gray">Personal Details</span><br><br>
+            <label for="Full name : ">Full Name  </label><br> 
             <input type ="text" placeholder="Enter your name" >
-            <lable for="Date of birth">Date of birth :</lable><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <lable for="Date of birth">Date of birth</lable>
             <input type="date" name="" id="">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="enter your email" name="name" id="">
+            <label for=""></label>
             
         </fieldset>
        
