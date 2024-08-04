@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,40 +9,37 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-        h3 {
+        h3{
             color: gray;
         }
-        body {
-            min-height: 100lvh;
+        body{
             display: flex;
             align-items: center;
             justify-content: center;
             background: blue;
-            font-family: "Roboto", sans-serif;
+            min-height: 100vh;
+            font-family:"Roboto",sans-serif ;
         }
-        form {
+        form{
             background-color: white;
             position: relative;
             max-width: 900px;
-            width: 100%;
+            width: 100px;
             border-radius: 6px;
             padding: 30px;
-            margin: 0 15px;
+            margin: 0 5px;
             box-shadow: 0 5px 10px black;
         }
-        input {
+        input{
             margin: 0px 20px 20px 0px;
             padding: 10px 5px;
-            border-radius: 5px;
-            border: 1px solid black;
+            border-radius:5px ;
+            /* border: 1px black; */
         }
-
-        input:focus {
+        input:focus{
             outline: none;
         }
-
-        button {
+        button{
             background-color: blue;
             width: 200px;
             color: white;
@@ -53,87 +49,83 @@
             border: none;
             outline: none;
         }
-
-        button i {
+        button i{
             margin-left: 10px;
         }
-
-        label {
+        label{
             display: block;
-            /* margin-bottom: 20vh; */
+            margin-bottom: 10px;
         }
+
+
     </style>
 </head>
-
 <body>
-    <div style="max-width:1000px; margin: auto;">
-        <form style="width: 100%; display: flex; flex-direction: column; flex-wrap: wrap;">
-            <h2 style="width: 100%;"><big>Rgistration</big></h2>
-            <h3 style="width: 100%;"><b color="gray">Personal Details </b></h3>
-            <div style="display: flex; flex-wrap: wrap; width: 100%;">
+    <div style="max-width: 1000px; margin: auto;">
+        <form style="width: 100%;  display: flex; flex-direction: column;flex-wrap: wrap">
+            <h2><b>Registration</b></h2>
+            <h3 style="width: 100%; color: grey;">Personal Details</h3>
+            <div style="display: flex;flex-wrap: wrap;width: 100%;">
                 <div>
-                    <label for="Full Name">Full Name </label>
-                    <input type="text" placeholder="Enter your name">
+                    <label for="Full Name">Full Name</label>
+                    <input type="text" placeholder="enter your name">
                 </div>
                 <div>
-                    <label for="Date of Birth">Date of Birth</label>
-                    <input type="text" placeholder="Enter birth date">
+                    <label for="Date Of Birth">Date Of Birth</label>
+                    <input type="date" placeholder="Enter Birth date">
                 </div>
                 <div>
                     <label for="Email">Email</label>
-                    <input type="email" placeholder="Enter your Email">
+                    <input type="email" placeholder="Enter Your Email">
                 </div>
             </div>
-            <div style="display: flex; flex-wrap: wrap; width: 100%;">
-                <div>
 
-                    <label for="Moble Number">Moble Number</label>
-                    <input type="text" placeholder="Enter mobile number">
+            <div style="display: flex; flex-wrap: wrap;width: 100%;">
+                <div>
+                    <label for="mobile number">Mobile Number</label>
+                    <input type="text" placeholder="Enter your Email">
                 </div>
                 <div>
                     <label for="Gender">Gender</label>
                     <input type="text" placeholder="Enter your Gender">
                 </div>
                 <div>
-                    <label for="Occupation">Occupation</label>
-                    <input type="text" placeholder="Enter occupation">
+                    <label for="occupation">Occupation</label>
+                    <input type="text" placeholder="Enter Occupation">
                 </div>
             </div>
 
-            <h3 style="width:100%"><b>Identity Details</b></h3>
+            <h3 style="width: 100%; color: gray;"><b>Identity Details</b></h3>
             <div style="display: flex; flex-wrap: wrap; width: 100%;">
                 <div>
-
-                    <label for="Id type">Id type</label>
-                    <input type="text" placeholder="Enter Id type">
+                    <label for="ID Type">ID Type</label>
+                    <input type="text" placeholder="Enter ID type">
                 </div>
                 <div>
-                    <label for="Id number">Id number</label>
-
-                    <input type="text" placeholder="Enter Id Number">
+                    <label for="ID Number">ID Number</label>
+                    <input type="text" placeholder="Enter ID Number">
                 </div>
                 <div>
                     <label for="Issue Authority">Issue Authority</label>
                     <input type="text" placeholder="Enter issue Department">
                 </div>
             </div>
-            <div style="display: flex; flex-wrap: wrap; width: 100%;">
+
+            <div style="display: flex; flex-wrap: wrap;width: 100%;">
                 <div>
-                    <label for="Issue date">Issue date</label>
-                    <input type="text" placeholder="Enter Id issue date">
+                    <label for="Issue Date">Issue Date</label>
+                    <input type="text" placeholder="Enter ID Issue Date">
                 </div>
                 <div>
                     <label for="Issue State">Issue State</label>
-                    <input type="text" placeholder="Enter Id issue State">
+                    <input type="text" placeholder="Enter ID issue state">
                 </div>
                 <div>
-                    <label for="Expiry Date">Expiry Date</label>
-                    <input type="text" placeholder="Enter Id Expiry date">
+                    <label for="Expiry date">Expiry Date</label>
+                    <input type="text" placeholder="Enter ID Expiry date">
                 </div>
             </div>
-            <div>
-                <button type="submit">Next<i class="fa-solid fa-arrow-right"></i></button>
-            </div>
+            <button type="submit">Next<i class="fa-solid fa-arrow-right"></i></button>
         </form>
     </div>
 </body>
