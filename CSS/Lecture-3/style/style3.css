@@ -1,0 +1,61 @@
+/*css box model*/
+
+/*content box / border box*/
+/* .content{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    padding: 10px;
+}
+
+.border-box{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    padding: 10px;
+} */
+
+/*universal selector*/
+*{
+    box-sizing: border-box;
+}
+
+/*border properties*/
+/*long hand props*/
+
+.border-1{
+    /* height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: purple;
+    border: 20px solid green;
+    border-left: 10px solid orangered;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 10px;
+    /*border outline*/
+    /* border: 10px solid green;
+    border: 10px dotted green;
+    border: 10px inset green;
+    border: 10px outset green;
+    border: 10px dashed green;
+    border: 10px hidden green;
+    border: 10px ridge green;
+    border: 10px double green;
+    border: 10px groove green;
+    border: none; */
+    /* border: 5px solid purple;
+    outline: 5px solid gray;
+    outline-offset: 5px; */
+}
+
+.outline{
+    height: 200px;
+    width: 200px;
+    outline: 5px solid green;
+    border: 5px solid blue;
+    outline-offset:5px ;
+}
+
+ 
