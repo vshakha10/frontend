@@ -1,0 +1,90 @@
+/* inheritance rule */
+
+/* body{
+    background-color: yellow;
+}
+
+.maindiv{
+    background-color: blue;
+}
+
+.maindiv .div-1{
+    background-color: brown;
+}
+
+body .maindiv .div-1{
+    background-color: orange;
+}
+
+#demo{
+    background-color: aquamarine;
+}
+
+.maindiv #demo{
+    background-color: aliceblue;
+}
+.div-2{
+    background-color: bisque;
+} */
+
+/* important rules */
+
+/* .maindiv .div-1{
+    background-color: gray !important;
+}
+
+body .maindiv .div-1{
+    background-color: brown !important;
+} */
+
+/* @import rule */
+
+/* resetting values */
+
+/* .maindiv{
+    color: white;
+}
+
+.maindiv .div-1{
+    color: brown;
+}
+
+.div-2{
+    color: black;
+}
+
+.div-2{
+    color: unset;
+}
+
+.maindiv{
+    color: unset;
+} */
+
+/* css colors */
+
+/* rgb,rgba,hex,hsl */
+
+/* .rgb{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(150, 150, 10);
+} */
+
+/* .rgba{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 150, 0, 0.700);
+} */
+
+/* .hex{
+    height: 200px;
+    width: 200px;
+    background-color: #ff00aa;
+} */
+
+.hsl{
+    height: 200px;
+    width: 200px;
+    background-color: hsl(0, 89%, 29%);
+}
