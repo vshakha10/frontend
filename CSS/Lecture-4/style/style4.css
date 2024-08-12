@@ -1,4 +1,4 @@
-.border{
+/* .border{
     height: 300px;
     width: 300px;
     background-color: gray;
@@ -12,4 +12,37 @@
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     border-radius: 100%;
+} */
+
+.vertical-alignment{
+    font-size: 80px;
+    text-decoration: overline;
 }
+
+.vertical-alignment img{
+    vertical-align: middle;
+    vertical-align: baseline;
+    vertical-align: top;
+    vertical-align: bottom;
+    vertical-align: sub;
+    vertical-align: super;
+    vertical-align: text-bottom;
+    vertical-align: text-top;
+}
+
+.text-decoration{
+    font-size: 30px;
+    text-decoration-line: line-through;
+    text-decoration-line: overline;
+    text-decoration-line: underline;
+    text-decoration-color: brown;
+    text-decoration-style:dashed ;
+    /* text-decoration-thickness: 5px;
+    text-decoration: 10px solid overline; */
+}
+
+.text-transform{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
