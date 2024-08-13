@@ -41,8 +41,26 @@
     text-decoration: 10px solid overline; */
 }
 
-.text-transform{
+/* .text-transform{
     font-size: 40px;
     text-transform: capitalize;
-}
+    text-transform: uppercase;
+    text-indent: 100px;
+    text-shadow: 5px 5px 3px black;
+    line-height: 60px;
+    word-spacing: 100px;
+    letter-spacing: 100px;
+    white-space: pre;
+    white-space: wrap;
+    white-space: nowrap;
+} */
 
+/*font props*/
+
+/*calc() Unit*/
+
+.font-size{
+    font-size: 300%;
+    font-size: calc(5vw + 5px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
