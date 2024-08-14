@@ -64,3 +64,11 @@
     font-size: calc(5vw + 5px);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.googlefonts{
+    font-family: "montserrat" sans-serif;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-style: italic;
+    /* font:italic 50px sans-serif; */
+}
