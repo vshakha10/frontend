@@ -1,0 +1,164 @@
+/* section:nth-of-type(1) div:nth-child(1) h1:nth-child(3){
+    color: red;
+    background-color: yellow;
+}
+
+h1:only-of-type{
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+}
+
+h1:only-child{
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+} */
+
+/* Attributes Selectors */
+
+/* .formele{
+    display: flex;
+    height: 100lvh;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+form{
+    background-color: purple;
+    padding: 10px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+label{
+    color: white;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+input:valid{
+    background-color: mediumaquamarine;
+}
+
+input:invalid{
+    background-color: red;
+}
+
+input:focus{
+    outline: none;
+} */
+
+/* h1:read-only{
+    background-color: green;
+}
+
+h1:empty{
+    background-color: white;
+}
+
+h1{
+    height: 10px;
+} */
+
+/* Link Selectore */
+
+/* 
+:link
+:hover
+:active
+:visited 
+*/
+
+/* a:link{
+    background-color: plum;
+}
+
+a:active{
+    background-color: blue;
+}
+
+a:hover{
+    background-color: orangered;
+}
+
+a:visited{
+    background-color: black;
+}
+
+a[href='https://www.facebook.com']{
+    background-color: green;
+} */
+
+/* a[target='_blank']{
+    background-color: yellow;
+}
+
+a[target='_self']{
+    background-color: blue;
+} */
+
+/* div[class|='box']{
+    background-color: brown;
+} */
+
+
+/* first letter b */
+
+/* div[class^='b']{
+    background-color: brown;
+} */
+
+/* last letter b */
+
+/* div[class$='b']{
+    background-color: brown;
+} */
+
+/* not have o in class */
+
+/* div[class*='o']{
+    background-color: brown;
+} */
+
+
+
+/* [attribute]	[target]	Selects all elements with a target attribute
+[attribute=value]	[target="_blank"]	Selects all elements with target="_blank"
+[attribute~=value]	[title~="flower"]	Selects all elements with a title attribute that contains a space-separated list of words, one of which is "flower"
+[attribute|=value]	[lang|="en"]	Selects all elements with a lang attribute value starting with "en"
+[attribute^=value]	a[href^="https"]	Selects all <a> elements with a href attribute value starting with "https"
+[attribute$=value]	a[href$=".pdf"]	Selects all <a> elements with a href attribute value ending with ".pdf"
+[attribute*=value]	a[href*="w3schools"]	Selects all <a> elements with a href attribute value containing the substring "w3schools"
+ */
+
+/* pseudo elements */
+
+p::selection{
+    background-color: green;
+    color: white;
+}
+
+p::first-line{
+    background-color: brown;
+}
+
+p::first-letter{
+    font-size: 50px;
+}
+
+p:after{
+    content: 'P ELEMENTS';
+}
+
+p::before{
+    content: '';
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    position: absolute;
+    z-index: -1;
+}
