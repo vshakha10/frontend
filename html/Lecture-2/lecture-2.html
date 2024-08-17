@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        marquee {
+            color: aqua;
+            font-size: 30px;
+        }
+
+        address {
+            font-style: normal;
+        }
+
+        ol {
+            list-style-type: none;
+        }
+
+        ul {
+            list-style-type: upper-alpha;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <!--- abbr tag --->
+    <abbr title="Hyper Text Markup Language">HTML</abbr>
+
+    <p>The <abbr title="World Health Organization">WHO's</abbr> official mandate is to promote health and safety while
+        helping the vulnerable worldwide. It provides technical assistance to countries, sets international health
+        standards, collects data on global health issues, and serves as a forum for scientific or policy discussions
+        related to health.[2] Its official publication, the World Health Report, provides assessments of worldwide
+        health topics.</p>
+
+    <!-- bdo/bi directional override  -->
+    <!-- ltr -->
+    <!-- rtl -->
+
+    <bdo dir="rtl">This is BDO tag</bdo>
+
+    <!-- marquee tag -->
+    <marquee direction="right" scrollamount="" scrolldelay="" bgcolor="" height="" width="" behavior="" loop="">This is
+        marquee tag</marquee>
+
+    <!--address tag -->
+    <address>
+        Name : skillqode<br>
+        Street : city center<br>
+        Street1 : Yogichowk <br>
+        Email : <a href="mailto:skillqode@gmain.com">skillqode@gmail.com</a><br>
+        Phone no : <a href="tel:123456789">123456789</a><br>
+
+    </address>
+
+    <!--Html list types-->
+    <!--Order list-->
+    <ol type="none" start="">
+        <li>option</li>
+        <li>option</li>
+        <li>option</li>
+        <li>option</li>
+        <li>option</li>
+        <li>option</li>
+
+
+    </ol>
+
+    <!--unorder list-->
+    <ul type="A">
+        <li> option</li>
+        <li>option</li>
+        <li>option</li>
+        <li>option</li>
+        <li>option</li>
+        <li>option</li>
+
+    </ul>
+
+    <!--defination list-->
+    <dl>
+        <dt>fruits</dt>
+        <dd>mango</dd>
+        <dd>apple</dd>
+        <dd>banana</dd>
+    </dl>
+
+    <!--nesting list-->
+    <ol>
+        <li>option</li>
+        <li>option</li>
+        <li>
+            <ul>
+                <li>option</li>
+                <li>option</li>
+                <li>option</li>
+                <li>option</li>
+                <li>
+                    <dl>
+                        <dt></dt>
+                        <dd></dd>
+                    </dl>
+                </li>
+            </ul>
+        </li>
+        <li>option</li>
+    </ol>
+
+</body>
+
+</html>
