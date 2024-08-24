@@ -244,4 +244,114 @@ h4{
 } */
 
 
+/* Justify Content Properties */
+
+.flex-start {
+    justify-content: flex-start;
+
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.spaceAround {
+    justify-content: space-around;
+}
+
+.spaceEvenly {
+    justify-content: space-evenly;
+}
+
+/* Align Item Properties */
+
+.alignStart {
+    align-items: flex-start;
+    height: 400px;
+}
+
+.alignEnd {
+    align-items: flex-end;
+    height: 400px;
+}
+
+.alignCenter {
+    align-items: center;
+    height: 400px;
+}
+
+/* Flex Direction Column Justify Content Behaviour */
+
+.columnJustifyStart {
+    height: 1000px;
+    justify-content: flex-start;
+}
+
+.columnJustifyEnd {
+    height: 1000px;
+    justify-content: flex-end;
+}
+
+.columnJustifyCenter {
+    height: 1000px;
+    justify-content: center;
+}
+
+.columnJustifySpaceBetween {
+    height: 1000px;
+    justify-content: space-between;
+}
+
+.columnJustifySpaceEvenly {
+    height: 1000px;
+    justify-content: space-evenly;
+}
+
+.columnJustifySpaceAround {
+    height: 1000px;
+    justify-content: space-around;
+}
+
+/* Flex Direction Column Align Items Behaviour */
+
+.columnAlginStart {
+    align-items: flex-start;
+}
+
+.columnAlginEnd {
+    align-items: flex-end;
+}
+
+.columnAlginCenter {
+    align-items: center;
+}
+
+.flex div:nth-child(1) {
+    /* order: 5; */
+    background-color: blueviolet;
+}
+
+.flex div:nth-child(2) {
+    background-color: #e6394763;
+}
+.flex div:nth-child(3) {
+    /* order: 1; */
+    background-color: palegreen;
+}
+.flex div:nth-child(4) {
+    background-color:palevioletred;
+}
+.flex div:nth-child(5) {
+    /* order: 3; */
+    background-color: rgb(192, 14, 192);
+}
+
 
