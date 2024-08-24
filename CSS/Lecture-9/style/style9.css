@@ -6,10 +6,18 @@
 body{
     margin: 0;
 }
-.maindiv{
+/* .textCenter{
+    text-align: center;
+}
+h1{
+    font-size: 20px;
+    color: #5008f8;
+} */
+/* .maindiv{
     display: flex;
     flex-direction: row;
-    border: 2px solid black;
+    border: 2px solid black; */
+    /* height: 500px; */
     /* flex-wrap: nowrap; */
     /* flex-wrap: wrap; */
     /* flex-wrap: wrap-reverse; */
@@ -21,11 +29,9 @@ body{
     /* justify-content: space-evenly; */
     /* align-items: flex-start; */
     /* align-items: flex-end; */
-    align-items: center;
-
-
-}
-.div-1{
+    /* align-items: center;
+}*/
+/* .div-1{
     height: 100px;
     width: 100px;
     font-size: 40px;
@@ -48,4 +54,194 @@ body{
 }
 .maindiv div:nth-child(6){
     background-color: red;
+} */
+
+
+/*Flex-direction  : row reverce */
+
+
+/* .textCenter{
+    text-align: center;
 }
+h2{
+    font-size: 20px;
+    color: #5008f8;
+}
+.maindiv{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 2px solid black;
+    height: 500px; */
+    /* flex-wrap: nowrap; */
+     /* flex-wrap: wrap;  */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; 
+
+
+}*/
+/* .div-1{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: white;
+}
+.maindiv div:nth-child(1){
+    background-color: black;
+    order: 1;
+}
+.maindiv div:nth-child(2){
+    background-color: blueviolet;
+    order: 6;
+}
+.maindiv div:nth-child(3){
+    background-color: palevioletred;
+    order: 3;
+}
+.maindiv div:nth-child(4){
+    background-color: goldenrod;
+    order: 4;
+}
+.maindiv div:nth-child(5){
+    background-color: burlywood;
+    order: 5;
+}
+.maindiv div:nth-child(6){
+    background-color: red;
+    order: 2;
+} */
+
+
+/*Flex-direction  : Column */
+
+
+/* .textCenter{
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    color: #5008f8;
+}
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 700px; */
+    /* flex-wrap: nowrap; */
+     /* flex-wrap: wrap;  */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center;
+
+
+}*/
+/* .div-1{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: white;
+}
+.maindiv div:nth-child(1){
+    background-color: black;
+    order: 1;
+}
+.maindiv div:nth-child(2){
+    background-color: blueviolet;
+    order: 2;
+}
+.maindiv div:nth-child(3){
+    background-color: palevioletred;
+    order: 3;
+}
+.maindiv div:nth-child(4){
+    background-color: goldenrod;
+    order: 4;
+}
+.maindiv div:nth-child(5){
+    background-color: burlywood;
+    order: 5;
+}
+.maindiv div:nth-child(6){
+    background-color: red;
+    order: 6;
+} */
+
+
+
+/*Flex-direction  : Column reverce*/
+
+
+/* .textCenter{
+    text-align: center;
+}
+h4{
+    font-size: 20px;
+    color: #5008f8;
+} */
+/* .maindiv{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid black;
+    height: 900px;
+    /* flex-wrap: nowrap; */
+     /* flex-wrap: wrap;  */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center;
+
+
+} */
+/* .div-1{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: white;
+}
+.maindiv div:nth-child(1){
+    background-color: black;
+    order: 5;
+}
+.maindiv div:nth-child(2){
+    background-color: blueviolet;
+    order: 2;
+}
+.maindiv div:nth-child(3){
+    background-color: palevioletred;
+    order: 3;
+}
+.maindiv div:nth-child(4){
+    background-color: goldenrod;
+    order: 4;
+}
+.maindiv div:nth-child(5){
+    background-color: burlywood;
+    order: 1;
+}
+.maindiv div:nth-child(6){
+    background-color: red;
+    order: 6;
+} */
+
+
+
