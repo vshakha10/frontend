@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'New Amsterdam';
+    src: url('NewAmsterdam-Regular.eot');
+    src: url('NewAmsterdam-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NewAmsterdam-Regular.woff2') format('woff2'),
+        url('NewAmsterdam-Regular.woff') format('woff'),
+        url('NewAmsterdam-Regular.ttf') format('truetype'),
+        url('NewAmsterdam-Regular.svg#NewAmsterdam-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,10 +1,10 @@
-/* *{
+*{
     box-sizing: border-box;
 }
 body{
     margin: 0;
-} */
-/* h1{
+}
+ /* h1{
     height: 200px;
     width: 200px;
     background-color: palevioletred;
@@ -18,18 +18,18 @@ span{
     margin-top: 100px;
     margin-left: 200px;
     display: inline-block;
-} */
+}  */
 /* div{
     display: flex;
 } */
 
 
 /* h1{
-    display: none;
-    visibility: collapse;
-    visibility: hidden;
-    visibility: visible;
-} */
+    /* display: none; */
+    /* visibility: collapse; */
+    /* visibility: hidden;
+    visibility: visible; 
+}*/
 /* div{
     display: grid;
 } */
@@ -42,14 +42,14 @@ span{
 
 .maindiv div{
    /* flex-grow: 1; */
-  flex-basis: 50%
+  /* flex-basis: 10%; */
   /* flex-shrink: 10; */
   
 }
 
 .maindiv div:nth-child(1){
   background-color:peru;
-  /* flex-shrink: 10; */
+ flex-shrink: 10 ;
 }
 .maindiv div:nth-child(2){
   background-color:palevioletred;

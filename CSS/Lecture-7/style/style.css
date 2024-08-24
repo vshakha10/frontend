@@ -17,7 +17,7 @@ h1:only-child{
 
 /* Attributes Selectors */
 
-/* .formele{
+.formele{
     display: flex;
     height: 100lvh;
     justify-content: center;
@@ -40,27 +40,27 @@ label{
     display: inline-block;
 }
 
-input:valid{
+/* input:valid{
     background-color: mediumaquamarine;
 }
 
 input:invalid{
     background-color: red;
-}
-
-input:focus{
-    outline: none;
 } */
 
-/* h1:read-only{
+/* input:focus{
+    outline: none;
+}  */
+
+ /* h1:read-only{
     background-color: green;
-}
+} */
 
-h1:empty{
+/* h1:empty{
     background-color: white;
-}
+}  */
 
-h1{
+/* h1{
     height: 10px;
 } */
 
@@ -73,33 +73,33 @@ h1{
 :visited 
 */
 
-/* a:link{
+ /* a:link{
     background-color: plum;
-}
+} */
 
-a:active{
+/* a:active{
     background-color: blue;
-}
+} */
 
-a:hover{
+/* a:hover{
     background-color: orangered;
 }
 
 a:visited{
     background-color: black;
-}
-
-a[href='https://www.facebook.com']{
-    background-color: green;
 } */
 
-/* a[target='_blank']{
+/* a[href='https://www.facebook.com']{
+    background-color: green;
+}  */
+
+ /* a[target='_blank']{
     background-color: yellow;
 }
 
 a[target='_self']{
     background-color: blue;
-} */
+}  */
 
 /* div[class|='box']{
     background-color: brown;
@@ -137,7 +137,7 @@ a[target='_self']{
 
 /* pseudo elements */
 
-p::selection{
+/* p::selection{
     background-color: green;
     color: white;
 }
@@ -152,7 +152,7 @@ p::first-letter{
 
 p:after{
     content: 'P ELEMENTS';
-}
+} */
 
 p::before{
     content: '';

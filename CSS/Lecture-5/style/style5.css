@@ -4,18 +4,18 @@
 body{
     margin: 0;
 }
-.saans{
-    font-family: 'saans';
+.fonts{
+    font-family: 'New Amsterdam';
     font-weight: 900;
 }
 
 /*css margin and padding*/
  .margin{
-    /* height: 200px;
+    height: 200px;
     width: 200px;
     background-color: green;
     border: 10px solid black;
-    display: inline-block; */
+    /* display: inline-block; */
     /* margin-left: 10px;
     margin-right: 20px;
     margin-top: 30px;
@@ -24,7 +24,15 @@ body{
     margin: 30px 50px;
     margin: 30px 50px 70px;
     margin: 50px 70px 100px 150px; */
-     margin-left: -100; 
+     /* margin-left: -100; 
+     margin-top: -100; */
+     /* margin-inline: 100px;
+     margin-block: 200px; */
+     /* margin-inline-start: 100px;
+     margin-inline-end: 200px;
+     margin-block-start: 100px;
+     margin-block-end: 100px; */
+     /* margin: 100px; */
  }
 
 /*css padding*/
@@ -35,10 +43,11 @@ body{
     border: 2px solid black;
     margin: 0;
     color: purple;
-    /* padding-left: 50px;
+    padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
-    padding-bottom: 50px; */
+    padding-bottom: 50px; 
     padding: 20px;
     padding: 20px 40px;
+    padding: 20px 40px 80px 100px;
 }
