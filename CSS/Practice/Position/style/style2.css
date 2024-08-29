@@ -10,163 +10,180 @@ body{
     background-color: yellowgreen;
     border: 2px solid black;
     position: relative;
-}
-.static-1{
-    height: 150px;
-    width: 150px;
-    background-color: blue;
-    border: 2px solid black;
-}
-.static-2{
-    height: 70px;
-    width: 70px;
-    background-color: white;
-    border: 2px solid black;
-}
-
-
-.div-1{
-    height: 150px;
-    width: 150px;
-    background-color: blue;
-    border: 2px solid black;
     top: 0;
+    bottom: 0;
     margin: auto;
 }
-.div-2{
-    height: 70px;
-    width: 70px;
-    background-color: white;
-    border: 2px solid black;
-    top: 0;
-    margin: auto;
-}
-
-.item-1{
-    height: 150px;
-    width: 150px;
-    background-color: blue;
-    border: 2px solid black;
-    top: 0;
-    right: 0;
-    position: absolute;
-    
-}
-.item-2{
-    height: 70px;
-    width: 70px;
-    background-color: white;
-    border: 2px solid black;
-    top: 0;
-    right: 0;
-    position: absolute;
-}
-
 .box-1{
     height: 150px;
     width: 150px;
     background-color: blue;
     border: 2px solid black;
     position: absolute;
-    bottom: 325px;
     left: 0;
+    top: 0;
 }
-.box-2{
+.item-1{
     height: 70px;
     width: 70px;
     background-color: white;
     border: 2px solid black;
     position: absolute;
-    bottom:38px;
     left: 0;
+    top: 0;
+
 }
 
-.squre-1{
+
+.Box-2{
     height: 150px;
     width: 150px;
     background-color: blue;
     border: 2px solid black;
     position: absolute;
     bottom: 0;
+    top: 0;
     margin: auto;
-    inset: 0;
 }
-.squre-2{
+.item-2{
     height: 70px;
     width: 70px;
     background-color: white;
     border: 2px solid black;
     position: absolute;
     bottom: 0;
+    top: 0;
     margin: auto;
-    inset: 0;
 }
 
-.box-3{
-    height: 150px;
-    width: 150px;
-    background-color: blue;
-    border: 2px solid black;
-    position: absolute;
-    bottom: 325px;
-    right: 0;
-}
-.box-4{
-    height: 70px;
-    width: 70px;
-    background-color: white;
-    border: 2px solid black;
-    position: absolute;
-    bottom:38px;
-    right: 0;
-}
-
-.div-3{
+.Box-3{
     height: 150px;
     width: 150px;
     background-color: blue;
     border: 2px solid black;
     position: absolute;
     bottom: 0;
-    left: 0;
+    
 }
-.div-4{
-    height: 70px;
-    width: 70px;
-    background-color: white;
-    border: 2px solid black;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.static-3{
-    height: 150px;
-    width: 150px;
-    background-color: blue;
-    border: 2px solid black;
-    bottom: 0;
-    margin: 346px auto;
-}
-.static-4{
-    height: 70px;
-    width: 70px;
-    background-color: white;
-    border: 2px solid black;
-    bottom: 0;
-    margin: 78px auto;
-}
-
 .item-3{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+}
+
+.box-4{
     height: 150px;
     width: 150px;
     background-color: blue;
     border: 2px solid black;
+    left: 300px;
     position: absolute;
-    bottom: 0;
-    right: 0;
 }
 .item-4{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border: 2px solid black;
+    left:40px;
+    position: absolute;
+    
+}
+
+.Box-5{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border: 2px solid black;
+    position: absolute;
+    left: 300px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.item-5{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    left: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.box-6{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+}
+.item-6{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+}
+
+.Box-7{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border: 2px solid black;
+    position: absolute;
+    right: 0;
+}
+.item-7{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    right: 0;
+}
+
+.Box-8{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border: 2px solid black;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.item-8{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.Box-9{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.item-9{
     height: 70px;
     width: 70px;
     background-color: white;
