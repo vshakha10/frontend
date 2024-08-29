@@ -70,31 +70,6 @@ body{
 
 
 /*position-Absolute/relative*/
-/* .static-1{
-    height: 600px;
-    width: 600px;
-    background-color: green;
-    border: 2px solid black;
-    position: relative;
-}
-
-.static-2{
-    height: 200px;
-    width: 200px;
-    background-color:blue ;
-    border: 2px solid black;
-    position: absolute;
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    inset: 0;
-} */
-
-/*Z-Index properties*/
 .static-1{
     height: 600px;
     width: 600px;
@@ -109,33 +84,58 @@ body{
     background-color:blue ;
     border: 2px solid black;
     position: absolute;
-    /*left: 0; 
+    top: 0; 
+    /* left: 0;  */
+    /* right: 0; */
+    /* bottom: 0;
+    right: 0;
+    left: 0; */
+    margin: auto;
+    inset: 0; 
+}
+
+/*Z-Index properties*/
+/* .static-1{
+    height: 600px;
+    width: 600px;
+    background-color: green;
+    border: 2px solid black;
+    position: relative;
+} */
+
+/* .static-2{
+    height: 200px;
+    width: 200px;
+    background-color:blue ;
+    border: 2px solid black;
+    position: absolute;
+    left: 0; 
     right: 0; 
     bottom: 0;
     right: 0;
-    left: 0; */
-    /* inset: 0; */
+    left: 0; 
+    inset: 0; 
     top: 0; 
     margin: auto;
     z-index: 2;
-}
+} */
 
-.static-3{
+/* .static-3{
     height: 200px;
     width: 200px;
     background-color:orange ;
     border: 2px solid black;
     position: absolute;
-    /* top: 0; 
+    top: 0; 
     left: 0; 
     right: 0; 
     bottom: 0;
     right: 0;
     left: 0;
     margin: auto;
-    inset: 0; */
+    inset: 0; 
     top: 100px;
     left: 100px;
     margin: auto;
     z-index: 2;
-}
+} */

@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.static-1{
+    height: 800px;
+    width: 800px;
+    background-color: yellow;
+    border: 2px solid black;
+    position: relative;
+}
+.static-2{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 2px solid black;
+    
+}
+.static-3{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 2px solid black;
+    top: 0;
+    margin: auto; 
+   
+}
+
+.static-4{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.static-5{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 2px solid black;
+    bottom: -25px;
+    left: 0;
+    position: relative;
+}
+.static-6{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    inset: 0;
+    
+}
+.static-7{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 325px;
+    right: 0;
+}
+.static-8{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.static-9{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 2px solid black;
+    bottom: 0;
+    margin: 198px auto;
+}
+.static-10{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+

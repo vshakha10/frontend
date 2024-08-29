@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.static-1{
+    height: 500px;
+    width: 400px;
+    /* background-color: plum; */
+    border: 3px solid black;
+    margin: 150px auto;
+    z-index: 2;
+}
+.static-2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid black;
+    top: 0;
+    margin:-80px 100px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}

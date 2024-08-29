@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.static{
+    
+    height: 80px;
+    width: 200px;
+    background-color: blue;
+    border: 2px solid black;
+    position: relative;
+    margin:auto;
+    z-index: 2;
+    
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    /* border: 2px solid black; */
+    border-radius: 50%; 
+    text-align:center;
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    margin: -15px;
+}
