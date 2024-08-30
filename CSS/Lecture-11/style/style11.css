@@ -1,0 +1,16 @@
+/*Css Background-Properties*/
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.Background-color{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+}
+.back-img{
+    background-image: url();
+}
