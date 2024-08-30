@@ -1,16 +1,29 @@
 /*Css Background-Properties*/
 
-*{
-    box-sizing: border-box;
+
+.back-img {
+    /* background-image: url(../Asset/images/image.jpeg);
+    background-repeat: no-repeat; */
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: space;
+    background-repeat: round;
+    background-size: cover;
+    background-size:contain;
+    background-position: top right; */
+    height: 1000px;
+    max-width: 1000px;
+    /* border: 50px solid transparent; */
+    /* padding: 100px; */
+    /* background-clip: border-box; */
+    /* background-clip: padding-box; */
+    /* background-clip: content-box; */
+    /* background-origin: border-box; */
+    /* background-origin: padding-box; */
+    /* background-origin: content-box; */
+
+ background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,105,1) 35%, rgba(0,212,255,1) 100%);;
 }
-body{
-    margin: 0;
-}
-.Background-color{
-    height: 200px;
-    width: 200px;
-    background-color: crimson;
-}
-.back-img{
-    background-image: url();
-}
+
+/* https://cssgradient.io/ */
