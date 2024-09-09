@@ -8,8 +8,8 @@
 }
 
 .transition:hover{
-    /* transform:translate(500px , 500px); */
-    /* transition-duration: 2s; */
+    /* transform:translate(100px , 100px); */
+    transition-duration: 2s;
     /* transform: translate(500px); */
     /* transform: translatey(500px); */
     /* transform: translatey(-500px); */

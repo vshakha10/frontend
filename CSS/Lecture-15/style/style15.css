@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* .opacity{
+    height: 400px;
+    width: 400px;
+    background-color: orangered;
+    opacity: 0;
+} */
+.filter{
+    width:600px;
+    height: 700px;
+    filter:brightness(100%);
+    filter:blur(10px);
+    filter:contrast(200%);
+    filter:grayscale(100%);
+    filter:hue-rotate(260deg);
+    filter:invert(100%);
+    filter:opacity(1);
+    filter:sepia(100%);
+    filter:saturate(100%);
+    position: relative;
+    filter:drop-shadow(20px 20px 20px black);
+}
+img{
+    box-shadow: 10px 10px 10px gray;
+    height: 700px;
+    width: 600px;
+    position: absolute;
+}
+
+.backdrop{
+    backdrop-filter: brightness(50%);
+    backdrop-filter: saturate(0%);
+    backdrop-filter:drop-shadow(10px 20px 1px black);
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    inset: 0;
+    margin: auto;
+} 
+
+/* .Units{
+    background-color: black;
+    height: 90lvh;
+    width: 90lvw;
+}*/

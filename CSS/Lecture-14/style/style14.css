@@ -1,0 +1,77 @@
+/* Css Object-Fit Properties */
+
+.object-fit{
+    height: 200px;
+    width: 200px;
+}
+
+.object-fit img{
+    height: 600px;
+    width: 600px;
+    /* object-fit: contain;
+    object-fit: scale-down;
+    object-fit: fill;
+    object-fit: cover;
+    object-position: right; */
+}
+
+
+/* Css Float Properties */
+
+/* .float{
+    float: left;
+    float: right;
+    float: none;
+    height: 200px;
+    width: 200px;
+    display:block;
+} */
+
+
+/* Css Clear Properties */
+
+/* .float-1{
+    float: left;
+    float: right;
+    float: none;
+    height: 200px;
+    width: 200px;
+    display:block;
+}
+
+.float-2{
+    float: left;
+    float: right;
+    float: none;
+    height: 200px;
+    width: 200px;
+    display:block;
+    clear: both;
+    clear:right;
+    clear: left;
+    clear: none;
+} */
+
+
+/* Css Overflow Properties */
+
+.overflow{
+    /* height: 500px; */
+    /* width:30%; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto;
+    overflow: visible;
+    overflow-x: hidden;
+    overflow-x: scroll;
+    overflow-x: auto;
+    overflow-x: visible;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    overflow-y: auto;
+    overflow-y: visible; */
+    /* overflow-wrap: anywhere ; */
+    /* overflow-wrap: break-word; */
+    /* white-space: wrap; */
+    /* white-space:nowrap; */
+}

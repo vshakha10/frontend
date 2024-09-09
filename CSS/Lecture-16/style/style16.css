@@ -1,0 +1,114 @@
+/* CSS  Icons */
+
+/* svg{
+    height: 100px;
+} */
+
+/* Css Overlay Properties */
+
+/* .main{
+    height: 700px;
+    width: 700px;
+    position: relative;
+}
+
+.main img{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    position: absolute;
+}
+
+.main:hover .overlay{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    background-color: rgba(155 , 65 , 79 , 0.5);
+    transition: 2s;
+} */
+
+/* Css Tooltip Properties */
+
+/* .tooltip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100lvh;
+}
+
+.content{
+    padding: 10px 20px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.inner:hover .hover-content{
+    position: absolute;
+    top:-50px;
+    color:white;
+    white-space: nowrap;
+    background-color: black;
+    padding: 5px;
+    display: block;
+}
+
+.inner{
+    position: relative;
+}
+
+.hover-content{
+    display: none;
+}
+
+.inner:hover .square{
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    position: absolute;
+    top: -28px;
+    transform: rotate(45deg);
+    left: 20px;
+    display: block;
+}
+
+.square{
+    display: none;
+} */
+
+
+/* CSS calc() unit Properties */
+
+/* .text{
+    font-size: calc(10vw + 2px);
+    font-weight: 900;
+    text-align: center;
+    text-align-last: center;
+} */
+
+
+
+/* @media (max-width:1400px){
+    .text{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:1000px){
+    .text{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:700px){
+    .text{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:500px){
+    .text{
+        font-size: 20px;
+    }
+} */

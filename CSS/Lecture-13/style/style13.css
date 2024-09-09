@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100lvh;
+}
+.anime{
+    padding-inline: 30px;
+    padding-block: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #a232f9;
+    color: white;
+    border: 2px solid #a232f9;
+    border-radius: 15px;
+}
+#btn{
+    /* animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    position: absolute;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: paused;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+    animation-fill-mode: both; */
+}
+
+/* @keyframes move{
+    from{
+        transform: translate(0px);
+    }
+    to{
+        transform: translateY(-50px);
+    }
+} */
+/* @keyframes move{
+    to{
+        transform: translate(0px);
+    }
+    from{
+        transform: translateY(-50px);
+    }
+} */
+
+@keyframes move{
+    0%{
+        transform: translate(0px);
+    }
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translate(0px);
+    }
+    75%{
+        transform: scale(2);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
