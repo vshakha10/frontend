@@ -1,0 +1,25 @@
+/* Css Grids */
+
+.maingrid{
+    display: grid;
+    /* display: inline-grid; */
+    grid-template-columns:repeat(4 , auto);
+    grid-template-rows:250px 200px 200px;
+    /* gap:20px; */
+}
+.g-1{
+    grid-row-start: 1;
+    grid-row-end:2;
+}
+/* .g-2{
+    grid-column-start:2 ;
+    grid-column-end: 4;
+    }
+.g-3{
+    grid-column-start:3 ;
+    grid-column-end: 4;
+} */
+.maingrid div{
+    border:1px solid gray;
+    font-size: 40px;
+}   
