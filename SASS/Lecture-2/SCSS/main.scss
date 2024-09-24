@@ -1,0 +1,13 @@
+/* Sass @use Rule */
+@use './index';
+
+/* Sass @import Rule */
+@import './variable';
+
+/* Sass Variables */
+
+.box{
+    height: $h_2;
+    width: $w_2;
+    background-color:$bg-color-5;
+}

@@ -1,0 +1,78 @@
+/* Css Grids */
+
+/*
+
+justify-content   ---- flex
+justify-items     ---- grid
+align-items       ---- flex
+align-content     ---- grid
+align-self        ---- flex
+justify-self      ---- grid
+place-content     ---- grid
+place-items       ---- grid
+place-self        ---- grid
+
+*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* justify-items: center; */
+    /* justify-items: end; */
+    /* justify-items: space-between;
+    justify-items: space-around;
+    justify-items: space-evenly; */
+    /* align-content: center; */
+    /* align-content: end; */
+    /* grid-template-rows: 500px; */
+    height: 500px;
+    background-color: gray;
+    gap:20px;
+    /* place-content: center;
+    place-content: start;
+    place-content: end; */
+    place-items: center;
+    place-items: end;
+}
+
+.grid-container div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border:2px solid black;
+    font-size: 40px;
+    color:white;
+}
+
+.grid-container div:nth-child(1){
+    /* justify-self: center; */
+    place-self: center;
+}
+
+
+/* Css Media Queries */
+
+body{
+    background-color: green;
+}
+
+/* Media Queries Syntax  */
+
+/*
+
+@media (max-width / min-width / width){
+    
+}
+
+*/
+@media (min-width:500px){
+    body{
+        background-color: black;
+    }
+}
+
+@media (min-width:700px){
+    body{
+        background-color: red;
+    }
+}

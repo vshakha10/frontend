@@ -1,0 +1,28 @@
+/* Sass @use Rule */
+/* height variables */
+/* width variables */
+/* color variables */
+/* flexbox variables */
+/* bg-color variables */
+/* font variables */
+/* flex-container variables */
+.box-1 {
+  height: 400px;
+  width: 400px;
+  background-color: #0ff;
+}
+
+/* Sass @import Rule */
+/* height variables */
+/* width variables */
+/* color variables */
+/* flexbox variables */
+/* bg-color variables */
+/* font variables */
+/* flex-container variables */
+/* Sass Variables */
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: #f0f;
+}/*# sourceMappingURL=main.css.map */
