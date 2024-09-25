@@ -1,0 +1,97 @@
+/* Sass @use Rule */
+/* color variables */
+/* bg-color variables */
+/* flex-container variables */
+/* flexbox variables */
+/* font variables */
+/* height variables */
+/* width variables */
+.box-1 {
+  height: 400px;
+  width: 400px;
+  background-color: #afa;
+}
+
+/* Sass @import Rule */
+/* color variables */
+/* bg-color variables */
+/* flex-container variables */
+/* flexbox variables */
+/* font variables */
+/* height variables */
+/* width variables */
+/* @forward Method */
+/* Sass @Mixin / @include Method */
+/* Sass Variables */
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: #f0f;
+}
+
+/* Sass Nesting Method */
+/* @at-root Method */
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #afa;
+  border-bottom: 5px solid #00f;
+}
+header .navlogo img {
+  max-width: 300px;
+  height: auto;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+li {
+  margin-left: 100px;
+}
+li a {
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+header .logo img {
+  max-width: 300px;
+  height: auto;
+  border: 1px solid black;
+}
+
+/* @content */
+/* Sass @Extend Rule */
+.box-1, .box {
+  height: 300px;
+  width: 300px;
+  background-color: #ff0;
+}
+
+.box-1 {
+  border: 2px solid black;
+}
+
+/* Sass Functions */
+.container1 {
+  width: 1000px;
+}
+
+.container2 {
+  width: 2000px;
+}
+
+.content {
+  height: 500px;
+  width: 500px;
+  background-color: #00f;
+}
+.content:hover {
+  background-color: #af0;
+}/*# sourceMappingURL=main.css.map */

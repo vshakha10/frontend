@@ -1,0 +1,15 @@
+/* Sass @Mixin / @include Method */
+
+@mixin _flex_box(){
+    display: $flex;
+    justify-content: $justify-evenly;
+    align-items: $align-center;
+    background-color: $bg-color-8;
+    border-bottom:5px solid $color-3;
+}
+
+@mixin imgfluid($size){
+    max-width: $size;
+    height: auto;
+    @content;
+}

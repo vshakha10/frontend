@@ -1,0 +1,92 @@
+/* Sass @use Rule */
+@use './index';
+
+/* Sass @import Rule */
+@import './variables';
+@import './mixin';
+
+/* Sass Variables */
+
+.box{
+    height: $h-2;
+    width: $w-2;
+    background-color:$bg-color-5;
+}
+
+/* Sass Nesting Method */
+
+/* @at-root Method */
+
+body{
+    margin: 0;
+}
+
+header{
+   @include _flex_box();
+    .navlogo img{
+        @include imgfluid(300px)
+    }
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        @at-root
+        li{
+            margin-left: 100px;
+            a{
+                text-decoration: none;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: $fs-3;
+                font-weight: bold;
+            }
+        }
+    }
+    .logo img{
+        @include imgfluid(300px){
+            border:1px solid black;
+        }
+    }
+}
+
+/* @content */
+
+/* Sass @Extend Rule */
+
+%shared-style{
+    height: $h-3;
+    width: $w-3;
+    background-color: $bg-color-6;
+}
+
+.box{
+    @extend %shared-style;
+}
+
+.box-1{
+    @extend %shared-style;
+    border:2px solid black;
+}
+/* Sass Functions */
+
+@function container($size){
+    @return $size * 2
+};
+
+@function container2($size){
+    @return $size * 4
+};
+
+.container1{
+    width: container(500px);
+}
+.container2{
+    width: container2(500px);
+}
+
+.content{
+    height: $h-5;
+    width: $w-5;
+    background-color: $bg-color-3;
+    &:hover{
+        background-color: $bg-color-4;
+    }
+}
