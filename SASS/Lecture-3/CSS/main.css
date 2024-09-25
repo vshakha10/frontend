@@ -1,0 +1,67 @@
+/*# sourceMappingURL=main.css.map */
+/* Sass @use Rule */
+/* color variables */
+/* bg-color variables */
+/* flex-container variables */
+/* flexbox variables */
+/* font variables */
+/* height variables */
+/* width variables */
+.box-1 {
+    height: 400px;
+    width: 400px;
+    background-color: #afa;
+  }
+  
+  /* Sass @import Rule */
+  /* color variables */
+  /* bg-color variables */
+  /* flex-container variables */
+  /* flexbox variables */
+  /* font variables */
+  /* height variables */
+  /* width variables */
+  /* @forward Method */
+  /* Sass @Mixin / @include Method */
+  /* Sass Variables */
+  .box {
+    height: 200px;
+    width: 200px;
+    background-color: #f0f;
+  }
+  
+  /* Sass Nesting Method */
+  /* @at-root Method */
+  body {
+    margin: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #afa;
+    border-bottom: 5px solid #00f;
+  }
+  header .navlogo img {
+    max-width: 300px;
+    height: auto;
+  }
+  header nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  li {
+    margin-left: 100px;
+  }
+  li a {
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  header .logo img {
+    max-width: 300px;
+    height: auto;
+  }/*# sourceMappingURL=main.css.map */

@@ -589,3 +589,113 @@
     transform: scale(1.05);
     transition: 0.5s;
 }
+
+
+/* Footer  */
+footer {
+     
+    background-color: black;
+    color: #fff;
+    padding: 50px 0; /* Padding inside the footer */
+    font-family: 'Poppins', sans-serif;
+    max-width: 1910px;
+    max-height: 1900px;
+    font-size: 10px;
+    margin-top: 50px; /* Added margin to give space above the footer */
+}
+
+
+.footer-container 
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.footer-column {
+flex: 1;
+padding: 0 20px;
+}
+
+.footer-column h3 {
+font-size: 16px;
+margin-bottom: 20px;
+font-weight: bold;
+}
+
+.footer-column p {
+margin-bottom: 10px;
+line-height: 1.6;
+}
+
+.footer-column a {
+color: #fff;
+text-decoration: none;
+display: block;
+margin-bottom: 10px;
+}
+
+.footer-column a:hover {
+color: #f91;
+}
+
+.social-icons a {
+margin-right: 15px;
+font-size: 20px;
+color: #fff;
+}
+
+.social-icons a:hover {
+color: #f91;
+}
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+ul li {
+margin-bottom: 10px;
+}
+
+.portfolio-links a {
+display: inline-block;
+background-color: #333;
+color: #fff;
+padding: 10px;
+margin: 5px;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.portfolio-links a:hover {
+background-color: #f91;
+color: #111;
+}
+
+.footer-bottom {
+border-top: 1px dashed #555;
+text-align: center;
+padding-top: 20px;
+margin-top: 20px;
+}
+
+.footer-bottom p {
+font-size: 14px;
+color: #888;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+.footer-container {
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-column {
+    margin-bottom: 20px;
+}
+}
