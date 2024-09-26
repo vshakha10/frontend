@@ -1,0 +1,660 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif
+}
+
+/* trending */
+
+.container{
+    max-width: 1600px;
+    margin-inline: auto;
+}
+
+/* Header start */
+
+.navigation
+{
+    border: #ff007f;
+    height: 150px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.facebook i:hover
+{
+    background: #4267B2;
+    border-radius: 100%;
+    color: white;
+    transition: 0.5s;
+}
+
+.twitter i:hover
+{
+    background-color: rgb(0, 183, 255);
+    color: white;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.instagram i:hover
+{
+    transition: 0.5s;
+    color: #FFFFFF;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #aa2fb5 0%, #f1762c 93%) !important;
+}
+
+.icons, i{
+    color: black;
+    padding: 10px;
+    display: flex;
+}
+
+.menubar i:hover{
+    color: #ff007f;
+    transition: 0.5s;
+}
+
+.nav-logo
+{
+    padding: 10px;
+}
+
+@media (max-width:767px) {
+    .nav-logo img{
+        width:120px;
+        height: auto;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    .menubar2{
+        /* visibility: hidden; */
+        display: none;
+    }
+    .menubar a i{
+        font-size: 18px;
+    }
+    .icons{
+        display: none;
+    }
+    .mobilemenu a i{
+        font-size: 18px;
+    }
+    .mobilemenu{
+        display: block;
+        text-align: center;
+    }
+}
+
+
+
+.option 
+{
+    display: flex;
+    font-weight: 500;
+    margin: 16px 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    justify-content: center;
+   
+}
+.option a{
+    text-decoration: none;
+    color: #454545;
+}
+
+.option .select:hover{
+    color: #ff007f;
+    transition: 0.5s;
+
+}
+
+/* Header end */
+
+/* Banner section start */
+.banner{
+    background-image: url(../assets/Images/slider-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100lvh;
+}
+
+.trending 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100lvh;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.trending h6
+{
+    color: #d7d7d7;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.trending h1
+{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.trending p
+{
+    font-size: 12px;
+    color: #d7d7d7;
+}
+
+.trending h4
+{
+    font-size: 11px;
+}
+
+.mobilemenu{
+    display: none;
+}
+
+.box-2
+{
+    border: 1px solid white !important;
+    color: #fff;
+    font: 400 13px / 40px "Open Sans", sans-serif;
+    padding: 0 27px;
+    border-width: 1px !important;
+    display: inline-block;
+    font-weight: 500;
+    border: none;
+    margin-top: 10px;
+}
+
+.box-2:hover
+{
+    background-color: #FFFFFF;
+    color: #000000;
+    transition: 0.5s;
+}
+/* banner section end */
+
+
+/* products section start */
+.text h1
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-align: center !important;
+    letter-spacing: .5px;
+}
+
+.text p{
+    font-size: 16px;
+    color: #454545;
+    padding-bottom: 20px;
+    text-align: center !important;
+}
+.options {
+    margin: 0px auto 30px auto;
+    text-align: center !important;
+}
+.options button{
+    border: none; 
+    margin: 0px 5px;  
+}
+.options a
+{
+    border: 1px solid #ECECEC;
+    color: #888888;
+    background-color: #fff;
+    font: 400 12px / 32px "Open Sans", sans-serif;
+    padding: 0 17px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.options a:hover
+{
+    border:1px solid #bababa;
+    transition: 0.5s;
+    color: #bababa;
+}
+.options .option-1 a{
+    background-color: rgba(0, 0, 0, 0);
+    background: linear-gradient(to right, #FC2548 -50%, #f11fad 93%);
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    padding: 0 17px;
+    font: 400 12px / 32px "Open Sans", sans-serif;
+    display: inline-block;
+    border-radius: 6px 0 0 6px ;
+}
+
+
+.innerCard{
+   text-align: center;
+   max-width: 450px;
+   height: auto;
+   overflow: hidden;
+}
+
+.innerCard img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cardrow{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.img img
+{
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.innerCard a{
+    text-decoration: none;
+}
+.innerCard a:hover{
+    color:  #ff007f ;
+}
+
+.img-text p
+{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.text-2 p
+{
+    color: #ff007f;
+}
+
+.text-3
+{
+    display: flex;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 20px;
+    padding: 0 200px;
+}
+
+.text-4
+{
+    display: flex;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 20px;
+    color: #ff007f;
+    padding: 0 300px;
+}
+
+.collection 
+{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../assets/Images/img7.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 150px 0px;
+}
+
+.collection h1
+{
+    font-size: 40px;
+}
+.collection div{
+    text-align: center;
+}
+.collection div h6,
+.collection div h1,
+.collection div p,
+.collection div .box{
+    text-align: center;
+}
+
+.box
+{
+    border: 1px solid #ECECEC;
+    color: #fff;
+    font: 400 13px / 40px "Open Sans", sans-serif;
+    padding: 0 17px;
+    display: inline-block;
+    background: black;
+    font-weight: 500;
+    border: none;
+    margin-top: 30px;
+}
+
+.box:hover
+{
+    background-color: #FFFFFF;
+    color: #000000;
+    transition: 0.5s;
+    border: 1px solid black !important;
+}
+/* product section end */
+
+
+/* latest arrivals start */
+.arrivals
+{
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.arrivals p
+{
+    margin-left: 165px;
+}
+
+.img-2 img
+{
+    height: 300px;
+    width: 220px;
+}
+
+.text-5 
+{
+   text-align: center;
+}
+.t-1 a{
+    text-decoration: none;
+}
+
+.t-1 a:hover
+{
+    color: #ff007f;
+    transition: 0.5s;
+}
+.t-2 a:hover
+{
+    color: #ff007f;
+    transition: 0.5s;
+}
+.t-2 a{
+    text-decoration: none;
+}
+.t-3 a:hover
+{
+    color: #ff007f;
+    transition: 0.5s;
+}
+.t-3 a{
+    text-decoration: none;
+}
+.t-4 a:hover
+{
+    color: #ff007f;
+    transition: 0.5s;
+}
+.t-4 a{
+    text-decoration: none;
+}
+.t-5 a:hover
+{
+    color: #ff007f;
+    transition: 0.5s;
+}
+.t-5 a{
+    text-decoration: none;
+}
+
+.text-6 
+{
+    text-align: center;
+}
+.text-6 a{
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    color: #ff007f;
+}
+.text-6 a:hover{
+    color: #000000;
+} 
+/* latest arrivals end */
+
+.aboutus 
+{
+    height: 530px;
+    width: 100%;
+    background-color: #000000;
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+/*footer start*/
+.aboutus p
+{
+    color: #888888;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.aboutus a 
+{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.aboutus span
+{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.line-4 span
+{
+    padding: 10px 20px;
+    border: 1px solid #a9a9a9;
+    margin-right: 5px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: #a9a9a9;
+    cursor: pointer;
+}
+
+.social-icons-simple 
+{
+    display: flex;
+}
+
+.social-icons-simple i
+{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.icons-1 i:hover
+{
+    background: #4267B2;
+    border-radius: 50%;
+    color: white;
+    transition: 0.5s;
+}
+
+.icons-5 i:hover
+{
+    background-color: rgb(0, 183, 255);
+    border-radius: 50%;
+    color: white;
+    transition: 0.5s;
+}
+
+.icons-6 i:hover
+{
+    background: linear-gradient(to bottom, #aa2fb5 0%, #f1762c 93%) !important;
+    border-radius: 50%;
+    color: white;
+    transition: 0.5s;
+}
+
+.con-img
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.con-img img:hover
+{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+
+/* Footer  */
+footer {
+     
+    background-color: black;
+    color: #fff;
+    padding: 50px 0; /* Padding inside the footer */
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    margin-top: 50px; /* Added margin to give space above the footer */
+}
+
+
+.footer-container 
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.footer-column {
+flex: 1;
+padding: 0 20px;
+}
+
+.footer-column h3 {
+font-size: 16px;
+margin-bottom: 20px;
+font-weight: bold;
+}
+
+.footer-column p {
+margin-bottom: 10px;
+line-height: 1.6;
+}
+
+.footer-column a {
+color: #fff;
+text-decoration: none;
+display: block;
+margin-bottom: 10px;
+}
+
+.footer-column a:hover {
+color: #f91;
+}
+
+.social-icons a {
+margin-right: 15px;
+font-size: 20px;
+color: #fff;
+}
+
+.social-icons a:hover {
+color: #f91;
+}
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+ul li {
+margin-bottom: 10px;
+}
+
+.portfolio-links a {
+display: inline-block;
+background-color: #333;
+color: #fff;
+padding: 10px;
+margin: 5px;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.portfolio-links a:hover {
+background-color: #f91;
+color: #111;
+}
+
+.footer-bottom {
+border-top: 1px dashed #555;
+text-align: center;
+padding-top: 20px;
+margin-top: 20px;
+}
+
+.footer-bottom p {
+font-size: 14px;
+color: #888;
+}
+
+
+/* footer end */
+
+ /* Responsive for smaller screens */
+    @media (max-width: 1024px) {
+        .container {
+            flex: 1 1 30%;  
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .container {
+            flex: 1 1 48%;    
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .container{
+            flex: 1 1 100%;
+        }
+    }
