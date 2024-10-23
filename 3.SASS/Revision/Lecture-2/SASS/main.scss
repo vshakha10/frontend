@@ -1,0 +1,178 @@
+/* height variables */
+
+$h_1:100px;
+$h_2:200px;
+$h_3:300px;
+$h_4:400px;
+$h_5:500px;
+
+/* width variables */
+
+$w_1:100px;
+$w_2:200px;
+$w_3:300px;
+$w_4:400px;
+$w_5:500px;
+
+/* color variables */
+
+$color-1:#f00;
+$color-2:#0f0;
+$color-3:#00f;
+$color-4:#af0;
+$color-5:#f0f;
+$color-6:#ff0;
+$color-7:#0ff;
+$color-8:#afa;
+$color-9:#fa0;
+$color-10:#aa0;
+
+/* flexbox variables */
+
+$flex-shrink-1:1;
+$flex-shrink-2:2;
+$flex-shrink-3:3;
+$flex-shrink-4:4;
+$flex-shrink-5:5;
+
+$flex-grow-1:1;
+$flex-grow-2:2;
+$flex-grow-3:3;
+$flex-grow-4:4;
+$flex-grow-5:5;
+
+$flex-basis-1:100px;
+$flex-basis-2:200px;
+$flex-basis-3:300px;
+$flex-basis-4:400px;
+$flex-basis-5:500px;
+
+/* bg-color variables */
+
+$bg-color-1:#f00;
+$bg-color-2:#0f0;
+$bg-color-3:#00f;
+$bg-color-4:#af0;
+$bg-color-5:#f0f;
+$bg-color-6:#ff0;
+$bg-color-7:#0ff;
+$bg-color-8:#afa;
+$bg-color-9:#fa0;
+$bg-color-10:#aa0;
+$bg-color-11:gray;
+$bg-color-12:white;
+
+/* font variables */
+
+$fs-1:12px;
+$fs-2:16px;
+$fs-3:18px;
+$fs-4:24px;
+$fs-5:28px;
+$fs-6:34px;
+$fs-7:38px;
+$fs-8:42px;
+
+/* flex-container variables */
+
+$flex:flex;
+$flex-dr:row;
+$flex-drr:row-reverse;
+$flex-dc:column;
+$flex-dcr:column-reverse;
+$justify-start:flex-start;
+$justify-end:flex-end;
+$justify-center:center;
+$justify-evenly:space-evenly;
+$justify-around:space-around;
+$justify-between:space-between;
+$align-start:flex-start;
+$align-end:flex-end;
+$align-center:center;
+$flex-warp:wrap;
+$flex-no-warp:nowrap;
+$flex-warp-r:wrap-reverse;
+
+/* utilities */
+
+$border-r-1:10px;
+$border-r-2:20px;
+$border-r-3:30px;
+$border-r-full:100%;
+
+$overflow-h:hidden;
+
+$object-cover:cover;
+$object-position-top:top;
+
+$position-relative:relative;
+$position-absolute:absolute;
+
+
+
+
+/* Sass card */
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Playwrite GB S", cursive;
+}
+
+body{
+    height: 100vh;
+    display: $flex;
+    justify-content: $justify-center;
+    align-items: $align-center;
+}
+
+.card{
+    height:$h_5;
+    width:$w_3;
+    background-color: $bg-color-12;
+    border-radius: $border-r-2;
+    overflow: $overflow-h;
+    position: $position-relative;
+    text-align: center;
+    box-shadow: 0px 0px 10px $bg-color-11;
+    .inner-img{
+        height: $h_2;
+        margin-bottom: 50px;
+        .img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .ab-img{
+        height: $h_1;
+        width: $w_1;
+        border-radius: $border-r-full;
+        overflow: $overflow-h;
+        position: $position-absolute;
+        inset:-100px 0 0 0;
+        margin: auto;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: $object-cover;
+            object-position: $object-position-top;
+        }
+    }
+    .card-text{
+        padding:0px 20px;
+        p{
+         margin:20px 0px;
+        }
+        .btn{
+            display: $flex;
+            button{
+                width: 100%;
+                padding:10px;
+                border-radius: $border-r-3;
+                border:0;
+                background-color: $color-9;
+            }
+        }
+    }
+}
