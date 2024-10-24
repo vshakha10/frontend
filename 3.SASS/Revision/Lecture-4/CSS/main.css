@@ -1,0 +1,60 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+}
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+nav .logo span {
+  font-size: 14px;
+  color: #2b7af3;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin-left: 20px;
+  font-size: 16px;
+  color: #333;
+}
+nav ul li:hover {
+  color: #2b7af3;
+  cursor: pointer;
+}
+nav ul li:last-child button {
+  background-color: #2b7af3;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+nav ul li:last-child button:hover {
+  color: #2b7af3;
+  cursor: pointer;
+}
+nav ul li:last-child button:hover {
+  background-color: rgb(12.5892857143, 95.46875, 222.4107142857);
+}
+nav .social-icons {
+  display: flex;
+  align-items: center;
+}
+nav .social-icons a {
+  margin-left: 10px;
+  color: #333;
+  font-size: 18px;
+}
+nav .social-icons a:hover {
+  color: #2b7af3;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */
