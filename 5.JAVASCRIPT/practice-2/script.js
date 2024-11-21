@@ -65,11 +65,29 @@
 
      // 5. Write a program that reverses a given string. 
  
-// { 
-//     let str = "JavaScript"; 
+    // { 
+    //     let str = "JavaScript"; 
  
-//     for (let i = str.length - 1; i >= 0; i--) { 
-//         console.log(str[i]); 
-//     } 
-// } 
+    //     for (let i = str.length - 1; i >= 0; i--) { 
+    //         console.log(str[i]); 
+    //     } 
+    // } 
 
+    // 6. Write a program that calculates the sum of all elements in an array.
+    {   let numArray = [10, 20, 30];
+        let sum = 0;
+        for (let num of numArray) {        
+            sum += num;
+        }    
+        console.log(`Sum of all elements ${sum}`);
+    }
+    // 7. Write a program that finds the largest number in an array.
+    {   let arr = [53, 23, 43, 54, 2, 564, 221];
+        let largest = 0;
+        for (let a of arr) {
+            if (a > largest) {            
+                largest = a;
+            }    
+        }
+        console.log(`Largest Number in array is: ${largest}`)
+    }
