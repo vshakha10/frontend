@@ -1,3 +1,4 @@
+{
 console.log(word.charAt(8));
     console.log(word.charCodeAt(8));
 
