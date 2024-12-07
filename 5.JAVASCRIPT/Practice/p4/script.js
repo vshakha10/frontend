@@ -46,3 +46,4 @@
     console.log(currentDate.toLocaleDateString());
     console.log(currentDate.toString());
 }
+
