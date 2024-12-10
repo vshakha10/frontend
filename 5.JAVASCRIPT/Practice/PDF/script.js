@@ -36,3 +36,14 @@ console.log(Math.sqrt(8));
 }
 
 //6.JavaScript Program to Solve Quadratic Equation
+
+
+
+{
+    // 7) JavaScript Program to Convert Kilometres to Miles
+
+    const miles = 0.62137119;
+    let kilometers = 15;
+
+    console.log(kilometers * miles);
+}
