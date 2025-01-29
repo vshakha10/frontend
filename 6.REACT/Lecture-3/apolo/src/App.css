@@ -1,0 +1,15 @@
+.heading{
+  background-color: chocolate;
+  font-size: medium;
+  text-align: center;
+}
+
+.input{
+  border: 1px solid black;
+}
+
+.element{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
