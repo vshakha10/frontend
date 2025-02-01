@@ -9,8 +9,10 @@ function App() {
   return (
     <>
       <Header />
+    <div className='content'>
       <Image/>
       <MainContent />
+    </div>
       <Footer />
     </>
   )

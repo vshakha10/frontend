@@ -8,8 +8,9 @@ export const Header = () => {
 
 export const Image = ()=>{
     return(
-        
-        <img src="https://wallpapers.com/images/featured/laptop-murjp1nk4lp1idlt.jpg" className="img1"></img>
+       <div className="img">
+         <img src="https://wallpapers.com/images/featured/laptop-murjp1nk4lp1idlt.jpg" className="img1"></img>
+         </div> 
     );
 };
   
@@ -31,18 +32,7 @@ export const Footer = () => {
     );
   };
   
-export const App = () => {
-    return (
-      <div className="App">
-        <Header />
-        <Image/>
-        <MainContent />
-        <Footer />
-      </div>
-    );
-  };
-  
-  export default App;
+
 
 
 
