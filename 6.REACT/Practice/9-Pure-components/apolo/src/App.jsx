@@ -1,6 +1,6 @@
 
 import './App.css'
-import Clock from './Clock'
+import 
 
 function App() {
   
