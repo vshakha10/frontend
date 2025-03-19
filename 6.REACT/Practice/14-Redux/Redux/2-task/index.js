@@ -29,7 +29,7 @@ function buy_data() {
   }
 }
 
-// Reducers
+//cake
 const Cakereducer = (state = initialCakeState, action) => {
     switch (action.type) {
         case 'BUY_CAKE':
@@ -39,6 +39,7 @@ const Cakereducer = (state = initialCakeState, action) => {
     }
 };
 
+//choco
 const Chocoreducer = (state = initialChocoState, action) => {
     switch (action.type) {
         case 'BUY_CHOCO':
@@ -48,6 +49,7 @@ const Chocoreducer = (state = initialChocoState, action) => {
     }
 };
 
+//data
 const Datareducer = (state = initialDataState, action) => {
     switch (action.type) {
         case 'BUY_DATA':

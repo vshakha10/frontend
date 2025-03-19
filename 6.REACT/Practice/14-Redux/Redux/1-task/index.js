@@ -5,7 +5,6 @@ const applyMiddleware = redux.applyMiddleware;
 const ReduxLogger = require("redux-logger");
 const logger = ReduxLogger.createLogger();
 
-// Initial States
 let initialValueCake = { cake: 10 };
 let initialValueChoco = { choco: 20 };
 let initialValueData = { data: 50 };
@@ -14,23 +13,22 @@ const BUY_CAKE = "BUY_CAKE";
 const BUY_CHOCO = "BUY_CHOCO";
 const DECREASE_DATA = "DECREASE_DATA";
 
-// Action 
 function buy_cake() {
   return {
     type: BUY_CAKE,
-  };
+  }
 }
 
 function buy_choco() {
   return {
     type: BUY_CHOCO,
-  };
+  }
 }
 
 function decrease_data() {
   return {
     type: DECREASE_DATA,
-  };
+  }
 }
 
 // Cake
